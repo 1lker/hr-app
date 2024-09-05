@@ -117,29 +117,59 @@ export const navItems: NavItem[] = [
     icon: 'dashboard',
     label: 'Dashboard'
   },
+  // {
+  //   title: 'User',
+  //   href: '/dashboard/user',
+  //   icon: 'user',
+  //   label: 'user'
+  // },
   {
-    title: 'User',
-    href: '/dashboard/user',
-    icon: 'user',
-    label: 'user'
+    title: 'HR Dashboard',
+    href: '/dashboard/hr-dashboard',
+    icon: 'dashboard',
+    label: 'hr'
   },
   {
-    title: 'Employee',
-    href: '/dashboard/employee',
+    title: 'Candidate List',
+    href: '/dashboard/candidate',
     icon: 'employee',
-    label: 'employee'
+    label: 'new candidate'
+  },
+  {
+    title: 'Candidate Import',
+    href: '/dashboard/import',
+    icon: 'import',
+    label: 'import candidate'
+  },
+  {
+    title: 'Candidate Dashboard',
+    href: '/dashboard/candidate-dashboard',
+    icon: 'employee',
+    label: 'hr'
+  },
+  // {
+  //   title: 'Candidate Board',
+  //   href: '/dashboard/employee',
+  //   icon: 'employee',
+  //   label: 'employee'
+  // },
+  {
+    title: 'Candidate File System',
+    href: '/dashboard/file',
+    icon: 'file',
+    label: 'file'
+  },
+  {
+    title: 'Contract Generator',
+    href: '/dashboard/contract',
+    icon: 'signature',
+    label: 'generate contract'
   },
   {
     title: 'Profile',
     href: '/dashboard/profile',
     icon: 'profile',
     label: 'profile'
-  },
-  {
-    title: 'Kanban',
-    href: '/dashboard/kanban',
-    icon: 'kanban',
-    label: 'kanban'
   },
   {
     title: 'Login',
