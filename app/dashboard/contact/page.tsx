@@ -89,6 +89,39 @@ const candidates: Candidate[] = [
     department: 'Marketing',
     location: 'Paris, France',
     socialLinks: { twitter: '#' }
+  },
+  {
+    id: '6',
+    name: 'Michael Brown',
+    email: 'michael.brown@example.com',
+    phone: '+1 234 567 8906',
+    profilePicture: '/john-doe.jpg',
+    role: 'Sales Representative',
+    department: 'Sales',
+    location: 'Tokyo, Japan',
+    socialLinks: { linkedin: '#', github: '#' }
+  },
+  {
+    id: '7',
+    name: 'Sophia Wilson',
+    email: 'sophia.wilson@example.com',
+    phone: '+1 234 567 8907',
+    profilePicture: '/john-doe.jpg',
+    role: 'HR Manager',
+    department: 'Human Resources',
+    location: 'Sydney, Australia',
+    socialLinks: { linkedin: '#', twitter: '#' }
+  },
+  {
+    id: '8',
+    name: 'David Lee',
+    email: 'david.lee@example.com',
+    phone: '+1 234 567 8908',
+    profilePicture: '/john-doe.jpg',
+    role: 'Finance Analyst',
+    department: 'Finance',
+    location: 'Toronto, Canada',
+    socialLinks: { linkedin: '#', github: '#' }
   }
 ];
 
@@ -193,8 +226,8 @@ const CandidateContactPage: React.FC = () => {
   const departments = Array.from(new Set(candidates.map((c) => c.department)));
 
   return (
-    <PageContainer>
-      <div className="container mx-auto min-h-screen px-4 py-12 sm:px-6 lg:px-8">
+    <PageContainer scrollable={true}>
+      <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <motion.h1
           className="mb-2 text-center text-4xl font-extrabold"
           initial={{ opacity: 0, y: -20 }}

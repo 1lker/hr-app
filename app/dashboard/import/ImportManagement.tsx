@@ -473,7 +473,7 @@ const ImportManagement: React.FC = () => {
   };
 
   return (
-    <PageContainer>
+    <PageContainer scrollable={true}>
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -554,7 +554,7 @@ const ImportManagement: React.FC = () => {
         )}
 
         {savedData.length > 0 && (
-          <Card className="mb-6">
+          <Card className="mb-12">
             <CardHeader>
               <CardTitle>Saved Employee Data</CardTitle>
             </CardHeader>
