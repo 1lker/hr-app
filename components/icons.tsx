@@ -31,7 +31,8 @@ import {
   X,
   Signature,
   Import,
-  FileIcon
+  FileIcon,
+  Contact
 } from 'lucide-react';
 
 export type Icon = LucideIcon;
@@ -66,6 +67,7 @@ export const Icons = {
   signature: Signature,
   import: Import,
   file: FileIcon,
+  contact: Contact,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

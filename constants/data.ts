@@ -111,12 +111,12 @@ export type Employee = {
 };
 
 export const navItems: NavItem[] = [
-  {
-    title: 'Dashboard',
-    href: '/dashboard',
-    icon: 'dashboard',
-    label: 'Dashboard'
-  },
+  // {
+  //   title: 'Dashboard',
+  //   href: '/dashboard',
+  //   icon: 'dashboard',
+  //   label: 'Dashboard'
+  // },
   // {
   //   title: 'User',
   //   href: '/dashboard/user',
@@ -142,9 +142,15 @@ export const navItems: NavItem[] = [
     label: 'import candidate'
   },
   {
+    title: 'Contract Generator',
+    href: '/dashboard/contract',
+    icon: 'signature',
+    label: 'generate contract'
+  },
+  {
     title: 'Candidate Dashboard',
     href: '/dashboard/candidate-dashboard',
-    icon: 'employee',
+    icon: 'dashboard',
     label: 'hr'
   },
   // {
@@ -160,10 +166,10 @@ export const navItems: NavItem[] = [
     label: 'file'
   },
   {
-    title: 'Contract Generator',
-    href: '/dashboard/contract',
-    icon: 'signature',
-    label: 'generate contract'
+    title: 'Contact',
+    href: '/dashboard/contact',
+    icon: 'contact',
+    label: 'contact'
   },
   {
     title: 'Profile',

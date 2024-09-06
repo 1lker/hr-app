@@ -1,5 +1,4 @@
 import React from 'react';
-import PageContainer from '@/components/layout/page-container';
 import ContractManagement from '@/app/dashboard/contract/ContractManagement';
 
 export default function ContractPage() {
