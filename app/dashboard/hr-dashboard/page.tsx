@@ -234,7 +234,7 @@ const SummaryCard: React.FC<SummaryCardProps> = ({
           })}
         </motion.div>
         <CardTitle
-          className="whitespace-pre-wrap break-words pt-4 text-lg font-bold"
+          className="w-min whitespace-pre-wrap break-words pt-4 text-lg font-bold"
           style={{ color: boschColors.white }}
         >
           {title}
@@ -315,8 +315,8 @@ const CandidateList: React.FC<{ candidates: CandidateData[] }> = ({
             <div className="flex items-center justify-between">
               <div>
                 <p className="font-medium">{candidate.name}</p>
-                <p className="text-sm text-gray-600">{candidate.email}</p>
-                <p className="text-sm text-gray-600">
+                <p className="text-gray-600 text-sm">{candidate.email}</p>
+                <p className="text-gray-600 text-sm">
                   {candidate.jobTitle} - {candidate.department}
                 </p>
               </div>
@@ -332,7 +332,7 @@ const CandidateList: React.FC<{ candidates: CandidateData[] }> = ({
                 >
                   {candidate.status}
                 </p>
-                <p className="text-sm text-gray-600">
+                <p className="text-gray-600 text-sm">
                   {candidate.applicationDate}
                 </p>
               </div>

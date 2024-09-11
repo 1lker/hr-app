@@ -123,30 +123,36 @@ export const navItems: NavItem[] = [
   //   icon: 'user',
   //   label: 'user'
   // },
-  {
-    title: 'HR Dashboard',
-    href: '/dashboard/hr-dashboard',
-    icon: 'dashboard',
-    label: 'hr'
-  },
-  {
-    title: 'Candidate List',
-    href: '/dashboard/candidate',
-    icon: 'employee',
-    label: 'new candidate'
-  },
-  {
-    title: 'Candidate Import',
-    href: '/dashboard/import',
-    icon: 'import',
-    label: 'import candidate'
-  },
-  {
-    title: 'Contract Generator',
-    href: '/dashboard/contract',
-    icon: 'signature',
-    label: 'generate contract'
-  },
+  // {
+  //   title: 'HR Dashboard',
+  //   href: '/dashboard/hr-dashboard',
+  //   icon: 'dashboard',
+  //   label: 'hr'
+  // },
+  // {
+  //   title: 'Candidate List',
+  //   href: '/dashboard/candidate',
+  //   icon: 'employee',
+  //   label: 'new candidate'
+  // },
+  // {
+  //   title: 'Document Management',
+  //   href: '/dashboard/document-management',
+  //   icon: 'file',
+  //   label: 'candidate document management'
+  // },
+  // {
+  //   title: 'Candidate Import',
+  //   href: '/dashboard/import',
+  //   icon: 'import',
+  //   label: 'import candidate'
+  // },
+  // {
+  //   title: 'Contract Generator',
+  //   href: '/dashboard/contract',
+  //   icon: 'signature',
+  //   label: 'generate contract'
+  // },
   {
     title: 'Candidate Dashboard',
     href: '/dashboard/candidate-dashboard',

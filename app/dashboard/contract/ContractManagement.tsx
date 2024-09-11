@@ -184,14 +184,14 @@ const generateContracts = (
 // Utility function for status colors
 const getStatusColor = (status: string) => {
   const colors: { [key: string]: string } = {
-    active: 'bg-green-100 text-green-800',
+    active: 'bg-green text-white',
     pending: 'bg-yellow-100 text-yellow-800',
-    terminated: 'bg-red-100 text-red-800',
-    draft: 'bg-gray-100 text-gray-800',
-    sent: 'bg-blue-100 text-blue-800',
+    terminated: 'bg-red text-white',
+    draft: 'bg-gray text-gray-800',
+    sent: 'bg-blue text-blue-800',
     approved: 'bg-indigo-100 text-indigo-800',
     rejected: 'bg-pink-100 text-pink-800',
-    signed: 'bg-purple-100 text-purple-800',
+    signed: 'bg-purple text-white',
     completed: 'bg-teal-100 text-teal-800'
   };
   return colors[status] || 'bg-gray-100 text-gray-800';
@@ -609,21 +609,21 @@ const ContractManagement: React.FC = () => {
                     </div>
                     {candidates.length === 0 ? (
                       <div className="py-10 text-center">
-                        <AlertCircle className="mx-auto h-10 w-10 text-gray-400" />
-                        <h3 className="mt-2 text-sm font-medium text-gray-900">
+                        <AlertCircle className="text-gray-400 mx-auto h-10 w-10" />
+                        <h3 className="text-gray-900 mt-2 text-sm font-medium">
                           Loading data...
                         </h3>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="text-gray-500 mt-1 text-sm">
                           Please wait while we fetch the candidate information.
                         </p>
                       </div>
                     ) : filteredCandidates.length === 0 ? (
                       <div className="py-10 text-center">
-                        <AlertCircle className="mx-auto h-10 w-10 text-gray-400" />
-                        <h3 className="mt-2 text-sm font-medium text-gray-900">
+                        <AlertCircle className="text-gray-400 mx-auto h-10 w-10" />
+                        <h3 className="text-gray-900 mt-2 text-sm font-medium">
                           No results found
                         </h3>
-                        <p className="mt-1 text-sm text-gray-500">
+                        <p className="text-gray-500 mt-1 text-sm">
                           No candidates match your search criteria. Try
                           adjusting your filters or search term.
                         </p>

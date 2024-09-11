@@ -45,14 +45,14 @@ export const DocumentManagementSystem: React.FC = () => {
         D_id: 1303,
         DocumentName: 'Transcript',
         Type: 'jpeg',
-        Status: 'Uploaded',
+        Status: 'Approved',
         UploadDate: '10:15 AM'
       },
       {
         D_id: 1304,
         DocumentName: 'Portfolio',
         Type: 'pptx',
-        Status: 'Uploaded',
+        Status: 'Rejected',
         UploadDate: '09:00 AM'
       },
       {

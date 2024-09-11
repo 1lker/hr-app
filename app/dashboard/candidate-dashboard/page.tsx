@@ -176,7 +176,7 @@ const BoschOnboardingDashboard = () => {
             </p>
             <Button
               onClick={() => setShowWelcomeModal(false)}
-              className="w-full bg-red-600 text-white transition-colors hover:bg-red-800"
+              className="hover:bg-red-800 w-full bg-red text-white transition-colors"
             >
               Lets Get Started!
             </Button>
@@ -217,7 +217,7 @@ const BoschOnboardingDashboard = () => {
             </CardHeader>
             <CardContent>
               <Progress value={progress} className="mb-2 h-4 w-full" />
-              <p className="text-sm text-gray-800">
+              <p className="text-gray-800 text-sm">
                 {progress.toFixed(0)}% Complete
               </p>
               <div className="mt-4 grid grid-cols-2 gap-4">
@@ -243,7 +243,7 @@ const BoschOnboardingDashboard = () => {
 
           <Card id="quick-actions">
             <CardHeader>
-              <CardTitle className="flex items-center text-green-700">
+              <CardTitle className="text-green-700 flex items-center">
                 <IconClipboardList className="mr-2" />
                 Quick Actions
               </CardTitle>
@@ -253,10 +253,10 @@ const BoschOnboardingDashboard = () => {
                 <Button className="w-full bg-blue-500 text-white transition-colors hover:bg-blue-600">
                   Complete Profile
                 </Button>
-                <Button className="w-full bg-green-500 text-white transition-colors hover:bg-green-800">
+                <Button className="hover:bg-green-800 w-full bg-green text-white transition-colors">
                   Schedule IT Setup
                 </Button>
-                <Button className="w-full bg-purple-500 text-white transition-colors hover:bg-violet-600">
+                <Button className="hover:bg-violet-600 w-full bg-purple text-white transition-colors">
                   Review Policies
                 </Button>
               </div>
@@ -338,7 +338,7 @@ const BoschOnboardingDashboard = () => {
 
           <Card id="company-insights">
             <CardHeader>
-              <CardTitle className="flex items-center text-green-800">
+              <CardTitle className="text-green-800 flex items-center">
                 <IconBuildingCommunity className="mr-2" />
                 Company Insights
               </CardTitle>
@@ -416,7 +416,7 @@ const BoschOnboardingDashboard = () => {
                     </span>
                     <span
                       id={`member-${index}-role`}
-                      className="text-center text-sm text-gray-200"
+                      className="text-gray-200 text-center text-sm"
                     >
                       {member.role}
                     </span>
@@ -464,7 +464,7 @@ const BoschOnboardingDashboard = () => {
 
           <Card id="bosch-innovation" className="md:col-span-3">
             <CardHeader>
-              <CardTitle className="text-red flex items-center">
+              <CardTitle className="flex items-center text-red">
                 <IconAward className="mr-2" />
                 Bosch Innovation Spotlight
               </CardTitle>
@@ -480,8 +480,8 @@ const BoschOnboardingDashboard = () => {
                     revolutionize industries.
                   </p>
                 </div>
-                <div className="rounded-lg bg-green-500 bg-opacity-10 p-4">
-                  <h3 className="mb-2 font-semibold text-green-800">
+                <div className="rounded-lg bg-green bg-opacity-10 p-4">
+                  <h3 className="text-green-800 mb-2 font-semibold">
                     Sustainable Technologies
                   </h3>
                   <p className="text-sm">
@@ -489,8 +489,8 @@ const BoschOnboardingDashboard = () => {
                     sustainable technologies.
                   </p>
                 </div>
-                <div className="rounded-lg bg-purple-500 bg-opacity-10 p-4">
-                  <h3 className="text-purple mb-2 font-semibold">
+                <div className="rounded-lg bg-purple bg-opacity-10 p-4">
+                  <h3 className="mb-2 font-semibold text-purple">
                     Internet of Things (IoT)
                   </h3>
                   <p className="text-sm">
@@ -503,7 +503,7 @@ const BoschOnboardingDashboard = () => {
           </Card>
         </div>
 
-        <footer className="mb-20 mt-8 text-center text-sm text-gray-500">
+        <footer className="text-gray-500 mb-20 mt-8 text-center text-sm">
           <p>&copy; 2024 Robert Bosch GmbH. All rights reserved.</p>
           <div className="mt-2">
             <a href="#" className="text-blue mr-4 hover:underline">
@@ -520,7 +520,7 @@ const BoschOnboardingDashboard = () => {
 
         <Button
           onClick={startWalkthrough}
-          className="fixed bottom-4 right-4 bg-red-500 text-white transition-colors hover:bg-red-800"
+          className="bg-red-500 hover:bg-red-800 fixed bottom-4 right-4 text-white transition-colors"
         >
           Restart Tour
         </Button>
